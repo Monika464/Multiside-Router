@@ -20,7 +20,7 @@ return (
           <p>{article.title}</p>
           <p>{article.author}</p>
           {/*<Link to={`/articles/${article.id}`}>Read more</Link>*/}
-          <Link to={`/articles/${article.id}`}>Read more</Link>*
+          <Link to={`/article/${article.id}`}>Read more</Link>
         </div>
    ))}
   </div>
